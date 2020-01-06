@@ -171,7 +171,7 @@ class App extends React.Component {
         <span className="overlay-text maintxt2 alternate-font text-white">INSPIRE ME!</span>
         {/* <h1 className="maintxt alternate-font text-white" >DRINKS</h1> */}
         <img className="img-responsive" src={photo6} width="1450" alt="" />
-        <h2><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
+        <br />
 
       </div>
         
