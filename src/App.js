@@ -4,6 +4,10 @@ import photo from './images/cocktail_trio.jpg';
 import photo2 from './images/cocktail_skulls.jpg';
 import photo3 from './images/cocktail_4glasses.jpg';
 import photo4 from './images/cocktail_summer.jpg';
+import photo5 from './images/dark_background_for_text.png';
+import photo6 from './images/cocktail_skulls_thin.jpg';
+import photo7 from './images/cocktail_trio_thin.jpg';
+
 import SearchCocktailByName from './components/SearchCocktailByName';
 import DropDown from './components/DropDown';
 import SearchByDrink from './components/SearchByDrink';
@@ -146,7 +150,7 @@ class App extends React.Component {
       <div className="container-full-bg" >
         <Header />
         <Greet /> 
-          <h1 className="alternate-font text-white" >MAKE ME A DRINK!</h1>
+          {/* <h1 className="alternate-font text-white" >MAKE ME A DRINK!</h1> */}
         </div>
 
 
@@ -160,6 +164,15 @@ class App extends React.Component {
            
           </div> */}
             
+      </div>
+
+      <div className="container-fluid text-block">
+
+        <span className="overlay-text maintxt2 alternate-font text-white">INSPIRE ME!</span>
+        {/* <h1 className="maintxt alternate-font text-white" >DRINKS</h1> */}
+        <img className="img-responsive" src={photo6} width="1450" alt="" />
+        <h2><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
+
       </div>
         
         <div className="feature-wrapper bg-white pt-5 pb-5 mt-5 mt-lg-0">
@@ -220,11 +233,9 @@ class App extends React.Component {
 
       <div className="container-fluid text-block">
 
-        <span className="overlay-text maintxt alternate-font text-white">INSPIRE ME</span>
+        <span className="overlay-text maintxt2 alternate-font text-white">MAKE ME ONE!</span>
         {/* <h1 className="maintxt alternate-font text-white" >DRINKS</h1> */}
-        <img className="img-responsive" src={photo3} width="1450" alt="" />
-          
-
+        <img className="img-responsive" src={photo7} width="1450" alt="" />
           
       </div> 
 
@@ -268,11 +279,12 @@ class App extends React.Component {
 
       <div className="container-fluid text-block">
         <span className="overlay-text maintxt alternate-font text-white">To make a : {this.state.cocktailName}</span>
-        <span className="overlay-text maintxt alternate-font text-white">{this.state.cocktailRecipe}</span>
+        <br></br>
+        <span className="overlay-text maintxt2 alternate-font2 text-white">{this.state.cocktailRecipe}</span>
         
     
 
-        <img img class="img-responsive" src={photo} width="1450" alt="" />
+        <img img class="img-responsive" src={photo5} width="1450" alt="" />
 
       </div> 
 
@@ -315,7 +327,7 @@ class App extends React.Component {
 
       </div> 
 
-      <div className="feature-wrapper bg-white pt-5 pb-5 mt-5 mt-lg-0">
+      {/* <div className="feature-wrapper bg-white pt-5 pb-5 mt-5 mt-lg-0">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
@@ -338,7 +350,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="container-fluid">
         <span className="overlay-text maintxt alternate-font text-white">MORE</span>
