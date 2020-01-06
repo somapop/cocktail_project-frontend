@@ -23,28 +23,42 @@ code {
   }
 }
 
-  @media only screen and (max-width: 1200px) {
-    body {
-      background-color: rgb(200, 226, 178);
-      color: cornsilk
-    }
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: rgb(200, 226, 178);
+    color: cornsilk
   }
-  @media only screen and (max-width: 800px) {
-    body {
-      background-color: rgb(35, 37, 37);
-      color: wheat
-    }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(35, 37, 37);
+    color: wheat
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-      color: white
-    }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    color: white
   }
-  @media only screen and (max-width: 300px) {
-    body {
-      background-color: rgb(231, 98, 37);
-      color: white
-    }
+}
+
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: rgb(231, 98, 37);
+    color: white
   }
-  
+}
+
+/* .btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  background-color: rgb(194, 228, 195);
+  padding: 2px 2px;
+  border: radius 5px;
+  border: 2px solid blanchedalmond;
+  color: black;
+  box-shadow: grey;
+  margin-inline: auto;
+} */
