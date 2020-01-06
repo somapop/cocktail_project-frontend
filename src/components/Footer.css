@@ -1,0 +1,47 @@
+footer {
+    margin-top: 10px;
+    font-size: 12px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid rgb(15, 1, 1);
+}
+
+.brand2 {
+    position: left;
+    left: 80%;
+    right: 80%;
+    margin: 0px;
+    /* 50% of your logo width */
+    display: grid;
+}
+
+.page-footer {
+    /* color: rgb(250, 243, 243); */
+    /* background-color: aqua; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 300; */
+    /* background-color: #8bc34a; */
+}
+
+.page-footer-custom {
+    background: rgb(42, 43, 44);
+}
+
+.footer-copyright {
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 22px;
+}
+
+
+.ins-ic {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}

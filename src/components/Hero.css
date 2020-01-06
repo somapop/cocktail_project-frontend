@@ -1,0 +1,162 @@
+.navbarstyle {
+    background-color: #f2f4f4;
+    font-family: 'playfair display', sans-serif;
+    display: block;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+}
+
+.navbar-text.navbar-brand {
+    color: black;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-family: "playfair display", sans-serif;
+}
+
+a:hover {
+    color: gray !important;
+}
+
+.navbar-text.navbar-brand:hover {
+    color: black;
+    cursor: default;
+}
+
+.litext {
+    font-size: 1.5em;
+}
+
+.navbar-collapse {
+    overflow: hidden;
+}
+
+.aboutbg {
+    background-image: url("https://res.cloudinary.com/ellen/image/upload/v1487985971/Profile/paperlighter.png");
+    display: block;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.abouttext {
+    font-size: 2em;
+    text-align: center;
+    padding: 60vh 1vw 60vh 1vw;
+}
+
+.aboutsubtext {
+    font-size: 3vw;
+    text-align: center;
+    padding: 0 1vw 30vh 1vw;
+}
+
+.navbar-default {
+    margin: 0;
+}
+
+body {
+    font-family: 'playfair display', sans-serif;
+    color: black;
+    overflow: scroll;
+}
+
+.linkcolor2 {
+    font-size: 20px;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.pagesrow {
+    display: block;
+    text-align: center;
+    padding: 40vh 0;
+}
+
+.projectsbg {
+    background: url("https://res.cloudinary.com/ellen/image/upload/v1487986395/Profile/yellowbackgroundpencilsmetro.png");
+    display: block;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+
+@media only screen and (max-width: 320px) {
+    iframe {
+        width: 80vw;
+    }
+}
+
+iframe {
+    border-style: solid;
+    border-width: 3px;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    font-size: 2.5vw;
+    text-align: center;
+    color: white;
+}
+
+.fccbtn {
+    margin: 40vh 0 50vh 5vw;
+}
+
+.cpbtn {
+    margin: 40vh 0 50vh 5vw;
+}
+
+.lkdinbtn {
+    margin: 40vh 0 50vh 5vw;
+}
+
+.contactbg {
+    background-image: url("https://res.cloudinary.com/ellen/image/upload/v1487985960/Profile/aquadesktopviewbw.jpg");
+    height: auto;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+
+.footer {
+    background-color: #f2f4f4;
+    text-align: center;
+    display: block;
+    height: auto;
+    padding-top: 5vh;
+    font-size: 1.5em;
+}
+
+.backtotop {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}

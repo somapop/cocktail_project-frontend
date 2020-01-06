@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/tasq_logo_6.png';
+import logo from '../images/tippl_300_x_300.png';
 
 
 function Greet() {
@@ -20,8 +20,8 @@ function Greet() {
         color: "#FFF",
         // backgroundColor: "#E96969",
         textAlign: "center",
-        width: 350,
-        padding: 60,
+        width: 250,
+        padding: 20,
         borderRadius: 20,
         fontFamily: "Montserrat",
         fontcolor: "white",
