@@ -81,7 +81,21 @@ h5 {
   margin: 50px;
   padding: 50px;
   /* background-color: pink; */
-  background-image: url('./images/cocktail_skulls_thin.jpg');
+  background-image: url('./images/cocktail_4glasses_thin.jpg');
+}
+
+.feature-wrapper4 {
+  margin: 50px;
+  padding: 50px;
+  /* background-color: pink; */
+  background-image: url('./images/cocktail_trio_thin.jpg');
+}
+
+.feature-wrapper5 {
+  margin: 50px;
+  padding: 50px;
+  /* background-color: pink; */
+  background-image: url('./images/cocktail_forrecipes_thin.jpg');
 }
 
 .fa-cocktail {
@@ -89,7 +103,8 @@ h5 {
   font-size: 4em;
   position: center;
   top: -1em;
-  margin: 5;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
 }
 
 .funkybutton {
@@ -121,7 +136,7 @@ h5 {
 }
 
 .jumbotron {
-  background: url('./images/med_cocktail_4glasses.png') fixed center no-repeat;
+  background: url('./images/cocktail_forrecipes_thin.jpg') fixed center no-repeat;
   background-size: cover;
   height: 40vh;
 }

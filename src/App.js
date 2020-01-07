@@ -265,14 +265,38 @@ class App extends React.Component {
         </div>
 
 
-      <div className="container-fluid text-block">
 
-        <span className="overlay-text maintxt2 alternate-font text-blue">MAKE ME ONE!</span>
+
+      <div className="feature-wrapper4 bg-white pt-5 pb-5 mt-5 mt-lg-0">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-md-12 text-center mb-3 mb-md-0">
+              <i class="fas fa-cocktail fa-3x"></i>
+            </div>
+            <div className="col-sm-12 col-md-12 text-center text-md-center text-uppercase mb-3 mb-md-0">
+
+              <h2>MAKE ME ONE</h2>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+
+
+
+        
+
+
+      {/* <div className="container-fluid text-block">
+
+        <span className="overlay-text maintxt2 alternate-font text-blue">MAKE ME ONE!</span> */}
         {/* <h1 className="maintxt alternate-font text-white" >DRINKS</h1> */}
-        <img className="img-responsive" src={photo7} width="1450" alt="" />
+        {/* <img className="img-responsive" src={photo7} width="1450" alt="" />
         <br />
           
-      </div> 
+      </div>  */}
 
       <div className="feature-wrapper bg-white pt-5 pb-5 mt-5 mt-lg-0">
         <div className="container">

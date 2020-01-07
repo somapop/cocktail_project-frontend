@@ -98,7 +98,7 @@ class Header extends React.Component {
                         </a> */}
                         <ul className="navbar-nav ml-auto">
                                 <li className="nav-item active"><a href="#" className="nav-link">HOME <span className="sr-only">(current)</span></a></li>
-                                <li className="nav-item"><a href="#" className="nav-link">RECIPES</a></li>
+                            <li className="nav-item"><a href="https://www.socialandcocktail.co.uk/top-100-cocktails/" target="_blank" className="nav-link">RECIPES</a></li>
                                 <li className="nav-item"><a href="#" className="nav-link">FAVOURITES</a></li>
                             
 
