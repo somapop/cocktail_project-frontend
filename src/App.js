@@ -149,7 +149,7 @@ class App extends React.Component {
      
       <div className="container-bg-sm" >
         <Header />
-        {/* <Greet />  */}
+        <Greet /> 
           {/* <h1 className="alternate-font text-white" >MAKE ME A DRINK!</h1> */}
         </div>
 
@@ -170,7 +170,7 @@ class App extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 text-center mb-3 mb-md-0">
-              <i class="fas fa-cocktail fa-3x"></i>
+              {/* <i class="fas fa-cocktail fa-3x"></i> */}
             </div>
             <div className="col-sm-12 col-md-12 text-center text-md-center text-uppercase mb-3 mb-md-0">
 
@@ -219,7 +219,7 @@ class App extends React.Component {
               <div className="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
                 <i class="fas fa-cocktail fa-3x"></i>
               </div>
-              <div className="col-sm-12 col-md-3 text-center text-md-left text-uppercase mb-3 mb-md-0">
+              <div className="col-sm-12 col-md-3 text-center text-md-center text-uppercase mb-3 mb-md-0">
               <div className="row">
                 <SearchCocktailByName
                   searchCocktailFunc={this.searchCocktailByName}
@@ -271,7 +271,7 @@ class App extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 text-center mb-3 mb-md-0">
-              <i class="fas fa-cocktail fa-3x"></i>
+              {/* <i class="fas fa-cocktail fa-3x"></i> */}
             </div>
             <div className="col-sm-12 col-md-12 text-center text-md-center text-uppercase mb-3 mb-md-0">
 
@@ -302,9 +302,9 @@ class App extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 text-center mb-3 mb-md-0">
-              <i class="fas fa-cocktail fa-3x"></i>
+              <i class="fas fa-cocktail fa-2x"></i>
             </div>
-            <div className="col-sm-12 col-md-12 text-center text-md-left text-uppercase mb-3 mb-md-0">
+            <div className="col-sm-12 col-md-12 text-center text-md-center text-uppercase mb-3 mb-md-0">
               
               <SearchByDrink
                 searchCocktailByDrinkFunc={this.searchCocktailByDrink}

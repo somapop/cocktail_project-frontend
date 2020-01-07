@@ -17,6 +17,7 @@ h2 {
 h5 {
   color: #ffffff;
   font-family: "Montserrat";
+  font-size: 18px;
 }
 
 .component {
@@ -100,7 +101,7 @@ h5 {
 
 .fa-cocktail {
   color: rgb(233, 105, 105);
-  font-size: 4em;
+  font-size: 3em;
   position: center;
   top: -1em;
   margin-top: 10pt;
@@ -110,6 +111,7 @@ h5 {
 .funkybutton {
   /*border: none;*/
   background: #52accaff;
+  color: rgb(248, 246, 246);
   /*color: #ffffff !important;*/
   /*font-weight: 100;*/
   /*padding: 20px;*/
@@ -136,7 +138,7 @@ h5 {
 }
 
 .jumbotron {
-  background: url('./images/cocktail_forrecipes_thin.jpg') fixed center no-repeat;
+  background: url('./images/cocktail_minty.jpg') fixed center no-repeat;
   background-size: cover;
   height: 40vh;
 }

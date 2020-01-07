@@ -1,9 +1,11 @@
 .btn-success {
-    color: #212529;
+    color: #fdfdfd;
     background-color: #7cc;
     border-color: #5bc2c2;
     background: #76a7aa;
     margin-top: 10pt;
+    margin-bottom: 10pt;
+    align-content: center;
 }
 
 .btn-success:hover {
