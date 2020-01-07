@@ -12,7 +12,9 @@ class SearchCocktailByName extends React.Component {
         }
 
         this.props.searchCocktailFunc(this.state.drinkName.toLowerCase());
-
+        this.setState ({
+            drinkName: ""
+        })
 
     }
     updateName = (event) => {
