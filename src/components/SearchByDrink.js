@@ -1,4 +1,5 @@
 import React from "react";
+import './SearchByDrink.css';
 
 class SearchByDrink extends React.Component {
     state = {

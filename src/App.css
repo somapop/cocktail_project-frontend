@@ -84,6 +84,14 @@ h5 {
   background-image: url('./images/cocktail_skulls_thin.jpg');
 }
 
+.fa-cocktail {
+  color: rgb(233, 105, 105);
+  font-size: 4em;
+  position: center;
+  top: -1em;
+  margin: 5;
+}
+
 .funkybutton {
   /*border: none;*/
   background: #52accaff;

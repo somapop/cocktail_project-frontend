@@ -149,7 +149,7 @@ class App extends React.Component {
      
       <div className="container-bg-sm" >
         <Header />
-        <Greet /> 
+        {/* <Greet />  */}
           {/* <h1 className="alternate-font text-white" >MAKE ME A DRINK!</h1> */}
         </div>
 
@@ -297,11 +297,11 @@ class App extends React.Component {
             <div className="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
               {/* <i class="fas fa-cocktail fa-3x"></i> */}
             </div>
-            <div className="col-sm-12 col-md-3 text-center text-md-left text-uppercase mb-3 mb-md-0">
+            <div className="col-sm-12 col-md-12 text-center text-md-center text-uppercase mb-3 mb-md-0">
               
               <SearchResults
                 cocktailArray={this.state.cocktailByDrink}
-                label="Click to see Cocktails"
+                // label="Click to see Cocktails"
                 showRecipeFunc={this.showRecipe}
                 key="4"
               />
@@ -326,7 +326,7 @@ class App extends React.Component {
       <div className="feature-wrapper2 bg-white pt-5 pb-5 mt-5 mt-lg-0">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
+            <div className="col-sm-12 col-md-12 text-center mb-3 mb-md-0">
               <i class="fas fa-cocktail fa-3x"></i>
             </div>
             <div className="col-sm-12 col-md-12 text-center text-md-center text-uppercase mb-3 mb-md-0">
