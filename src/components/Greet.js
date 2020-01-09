@@ -20,7 +20,7 @@ function Greet() {
         color: "#FFF",
         // backgroundColor: "#E96969",
         textAlign: "center",
-        width: 350,
+        width: 400,
         padding: 6,
         margin: 10,
         fontsize: 10,
